@@ -26,10 +26,7 @@ const validateInput = (text, notEmpty, isNumber) => {
 };
 
 const checkAndGenerate = (name, age) => {
-  const isNameValid = validateInput(name, true, false);
-  const isAgeValid = validateInput(age, false, true);
-
-  if (!isNameValid || !isAgeValid) {
+  if (!validateInput(name, true, false) || !validateInput(age, false, true)) {
     return false;
   }
   return generateText(name, age);
