@@ -17,9 +17,10 @@
     "integration",
     "tests",
     "e2e",
-    "tests"
+    "tests",
+    "playwrite"
   ],
-  "author": "Maximilian Schwarzmüller/ Academind GmbH",
+  "author": "Maxim Shemet",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.20.2",
