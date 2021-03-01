@@ -17,7 +17,7 @@
     "integration",
     "e2e",
     "jest",
-    "playwrite"
+    "playwright"
   ],
   "author": "Maxim Shemet",
   "license": "ISC",
